@@ -1,0 +1,47 @@
+@charset "UTF 8";
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(235, 232, 232)
+    ;
+}
+
+body{
+    background: url(fotos/fundo.jfif.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+main{
+      height: 100vh;
+      position:relative;
+    
+}
+
+section#phone{
+
+    height: 551px;
+    width: 418px;
+
+    position: absolute;
+    top: 72%;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    background: url(fotos/celular8braço.web.webp) no-repeat;
+}
+
+iframe#tela{
+    height: ;
+width: ;
+    top: 1.9%;
+    left: -8%;
+    position: relative;
+}
