@@ -28,20 +28,20 @@ main{
 
 section#phone{
 
-    height: 551px;
-    width: 418px;
+    height: 636px;
+    width: 568px;
 
     position: absolute;
-    top: 72%;
-    left: 56%;
+    top: 63%;
+    left: 57%;
     transform: translate(-50%, -50%);
-    background: url(fotos/celular8braço.web.webp) no-repeat;
+    background: url(fotos/frame-iphone.png) no-repeat;
 }
 
 iframe#tela{
-    height: ;
-width: ;
-    top: 1.9%;
-    left: -8%;
+    height:497px;
+width: 312px;
+    top: 11.3%;
+    left: -0.1%;
     position: relative;
 }
