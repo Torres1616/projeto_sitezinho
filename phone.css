@@ -17,7 +17,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: bottom;
+    background-position: center;
 }
 
 main{
@@ -36,6 +36,30 @@ section#phone{
     left: 57%;
     transform: translate(-50%, -50%);
     background: url(fotos/frame-iphone.png) no-repeat;
+}
+
+
+section#rs{
+    text-align: right;
+    
+}
+
+section#rs img:hover{
+    border: 1px solid  rgba(255, 255, 255, 0.555);
+    transform: translate(2px, 2px);
+     box-shadow:2px 2px 5px rgba(255, 255, 255, 0.589) ;
+     transition:transform .2s;
+    
+}
+
+section#rs img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow:rgba(255, 255, 255, 0.212) 4px 2px 10px;
+    box-sizing: border-box;
+    
+    
 }
 
 iframe#tela{
