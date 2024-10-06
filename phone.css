@@ -13,11 +13,11 @@ html,body{
 }
 
 body{
-    background: url(fotos/novo\ fundo.jpg);
+    background: url(fotos/950.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: center;
+    background-position:  top center;
 }
 
 main{
@@ -32,7 +32,7 @@ section#phone{
     width: 568px;
 
     position: absolute;
-    top: 63%;
+    top: 50%;
     left: 57%;
     transform: translate(-50%, -50%);
     background: url(fotos/frame-iphone.png) no-repeat;
